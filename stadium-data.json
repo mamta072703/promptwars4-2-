@@ -1,0 +1,204 @@
+{
+  "stadiumInfo": {
+    "name": "MetLife Stadium, East Rutherford (NY/NJ Host City)",
+    "tournament": "FIFA World Cup 2026",
+    "capacity": 82500,
+    "generalRules": "Gates open 3 hours before kickoff. Bags larger than 4.5x6.5 inches are prohibited unless clear bags (under 12x6x12 inches). No outside food or drinks allowed."
+  },
+  "gates": [
+    {
+      "id": "gate-1",
+      "name": "Gate 1 (Bud Light Gate)",
+      "location": "North-East side, near parking Lots E & F",
+      "status": "open",
+      "crowdDensity": "low",
+      "averageQueueTimeMinutes": 5,
+      "wheelchairAccessible": true,
+      "directions": "Connects to Outer Loop, immediate access to Sections 101-110 and Escalator North."
+    },
+    {
+      "id": "gate-2",
+      "name": "Gate 2 (Verizon Gate)",
+      "location": "West side, near parking Lots G & H",
+      "status": "open",
+      "crowdDensity": "high",
+      "averageQueueTimeMinutes": 25,
+      "wheelchairAccessible": true,
+      "directions": "Main entrance for West Suites. Direct connection to Sections 116-126 and West Elevators."
+    },
+    {
+      "id": "gate-3",
+      "name": "Gate 3 (Pepsi Gate)",
+      "location": "South side, near parking Lot C",
+      "status": "closed",
+      "crowdDensity": "high",
+      "averageQueueTimeMinutes": 999,
+      "wheelchairAccessible": false,
+      "directions": "TEMPORARILY CLOSED. Direct traffic to Gate 4."
+    },
+    {
+      "id": "gate-4",
+      "name": "Gate 4 (Hanu Gate)",
+      "location": "South-West side, near parking Lot D",
+      "status": "open",
+      "crowdDensity": "medium",
+      "averageQueueTimeMinutes": 12,
+      "wheelchairAccessible": true,
+      "directions": "Connects to Sections 128-138. Preferred wheelchair ramp access next to Gate 4 ticket window."
+    }
+  ],
+  "restrooms": [
+    {
+      "id": "restroom-105",
+      "name": "Restroom Section 105",
+      "location": "Concourse near Section 105",
+      "gender": "All-Gender / Family",
+      "wheelchairAccessible": true,
+      "hasBabyChangingTable": true,
+      "crowdDensity": "low",
+      "queueTimeMinutes": 2
+    },
+    {
+      "id": "restroom-122",
+      "name": "Restroom Section 122",
+      "location": "Concourse near Section 122",
+      "gender": "Men & Women separate",
+      "wheelchairAccessible": false,
+      "hasBabyChangingTable": false,
+      "crowdDensity": "high",
+      "queueTimeMinutes": 15
+    },
+    {
+      "id": "restroom-135",
+      "name": "Restroom Section 135",
+      "location": "Concourse near Section 135",
+      "gender": "Men & Women separate",
+      "wheelchairAccessible": true,
+      "hasBabyChangingTable": true,
+      "crowdDensity": "medium",
+      "queueTimeMinutes": 6
+    }
+  ],
+  "foodStalls": [
+    {
+      "id": "food-1",
+      "name": "Jersey Shore Eats",
+      "location": "Near Section 104",
+      "cuisine": "Hot dogs, Fries, Beer",
+      "dietaryFlags": [
+        "standard"
+      ],
+      "crowdDensity": "medium",
+      "status": "open"
+    },
+    {
+      "id": "food-2",
+      "name": "Verde Organic & Vegetarian",
+      "location": "Near Section 117",
+      "cuisine": "Vegetarian Wraps, Vegan Burgers, Gluten-Free Salads",
+      "dietaryFlags": [
+        "vegetarian",
+        "vegan",
+        "gluten-free"
+      ],
+      "crowdDensity": "low",
+      "status": "open"
+    },
+    {
+      "id": "food-3",
+      "name": "Global Halal Kitchen",
+      "location": "Near Section 131",
+      "cuisine": "Halal Gyros, Falafel, Hummus Platters",
+      "dietaryFlags": [
+        "halal",
+        "vegetarian",
+        "vegan"
+      ],
+      "crowdDensity": "high",
+      "status": "open"
+    }
+  ],
+  "medicalPoints": [
+    {
+      "id": "med-1",
+      "name": "First Aid Station A",
+      "location": "Concourse level behind Section 110",
+      "accessibilityNotes": "Fully level ground, next to Elevators 1 & 2. Staffed by certified EMTs.",
+      "status": "active"
+    },
+    {
+      "id": "med-2",
+      "name": "First Aid Station B",
+      "location": "Upper concourse behind Section 218",
+      "accessibilityNotes": "Accessible via Elevator 4.",
+      "status": "active"
+    }
+  ],
+  "accessibilityRoutes": [
+    {
+      "name": "Ramps & Lifts West Concourse",
+      "path": "From Verizon Gate (Gate 2) straight ahead 30 meters to West Elevators, which service Levels 1, 2, and 3.",
+      "accessibleFor": [
+        "wheelchair",
+        "stroller",
+        "elderly"
+      ]
+    },
+    {
+      "name": "Main South Ramp",
+      "path": "Ramp located between Gate 4 and Section 128 leading to all lower tier accessible seating. No stairs required.",
+      "accessibleFor": [
+        "wheelchair",
+        "stroller"
+      ]
+    }
+  ],
+  "transitHubs": [
+    {
+      "id": "transit-1",
+      "name": "NJ Transit Train Station",
+      "location": "Outside Gate 1 (Bud Light Gate)",
+      "status": "active",
+      "crowdDensity": "high",
+      "waitTimeMinutes": 35
+    },
+    {
+      "id": "transit-2",
+      "name": "FIFA Official Shuttle Bus Zone",
+      "location": "Parking Lot G near Gate 2",
+      "status": "active",
+      "crowdDensity": "low",
+      "waitTimeMinutes": 8
+    },
+    {
+      "id": "transit-3",
+      "name": "Rideshare Pickup & Drop-off Point",
+      "location": "Parking Lot D near Gate 4",
+      "status": "active",
+      "crowdDensity": "medium",
+      "waitTimeMinutes": 15
+    }
+  ],
+  "sustainabilityStops": [
+    {
+      "id": "eco-1",
+      "name": "Eco-Station Recycling Hub",
+      "location": "Concourse near Sections 117 & 131",
+      "features": [
+        "Recycling & Composting bins",
+        "Reusable cup return drop-offs"
+      ],
+      "crowdDensity": "low"
+    },
+    {
+      "id": "eco-2",
+      "name": "Eco Water Bottle Refill Station",
+      "location": "Concourse near Sections 105, 117, & 135",
+      "features": [
+        "Chilled filtered water refill",
+        "Encourages reusable water bottles"
+      ],
+      "crowdDensity": "low"
+    }
+  ]
+}

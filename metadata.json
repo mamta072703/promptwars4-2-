@@ -1,0 +1,8 @@
+{
+  "name": "FIFA World Cup 2026 Multilingual AI Stadium Assistant",
+  "description": "Real-time multilingual smart stadium concierge assisting fans with navigation, accessibility routes, and live crowd density management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
